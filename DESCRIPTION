@@ -1,0 +1,12 @@
+Package: ammodel
+Type: Package
+Title: AM ML Models Functions
+Version: 0.1.0
+Authors@R: person("Aleksandr", "Meshkov", email = "agrobov@gmail.com",
+  role = c("aut", "cre"))
+Description: Some additional functions from all over the world to make ML models better
+Depends:
+    R (>= 3.3.0)
+License: CC-BY-SA-4.0 (Attribution-ShareAlike 4.0 International)
+LazyData: TRUE
+RoxygenNote: 5.0.1
