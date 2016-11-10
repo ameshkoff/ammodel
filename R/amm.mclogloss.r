@@ -7,6 +7,7 @@
 #' @param eps param
 #' @return Vector
 #' @seealso ...
+#' @export
 
 amm.mclogloss <- function(actual
                       , predicted

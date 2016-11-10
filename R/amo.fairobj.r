@@ -6,6 +6,7 @@
 #' @param dtrain vector
 #' @return Vector
 #' @seealso ...
+#' @export
 
 amo.fairobj2 <- function(preds, dtrain) {
 

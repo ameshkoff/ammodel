@@ -6,6 +6,7 @@
 #' @param dtrain vector
 #' @return Vector
 #' @seealso ...
+#' @export
 
 amo.caushyobj3 <- function(preds, dtrain) {
 

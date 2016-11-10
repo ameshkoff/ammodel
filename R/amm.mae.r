@@ -6,6 +6,7 @@
 #' @param dtrain vector
 #' @return Vector
 #' @seealso ...
+#' @export
 
 amm.mae <- function(preds
                     , dtrain) {

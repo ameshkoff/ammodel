@@ -6,6 +6,7 @@
 #' @param dtrain vector
 #' @return Vector
 #' @seealso ...
+#' @export
 
 amm.rmpse.log <- function(preds
                           , dtrain) {
