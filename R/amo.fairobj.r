@@ -28,6 +28,7 @@ amo.fairobj2 <- function(preds, dtrain) {
 #' @param dtrain vector
 #' @return Vector
 #' @seealso ...
+#' @export
 
 amo.fairobj2.2 <- function(preds, dtrain) {
 
@@ -49,6 +50,7 @@ amo.fairobj2.2 <- function(preds, dtrain) {
 #' @param dtrain vector
 #' @return Vector
 #' @seealso ...
+#' @export
 
 amo.fairobj2.5 <- function(preds, dtrain) {
 
@@ -70,6 +72,7 @@ amo.fairobj2.5 <- function(preds, dtrain) {
 #' @param dtrain vector
 #' @return Vector
 #' @seealso ...
+#' @export
 
 amo.fairobj1.5 <- function(preds, dtrain) {
 
@@ -91,6 +94,7 @@ amo.fairobj1.5 <- function(preds, dtrain) {
 #' @param dtrain vector
 #' @return Vector
 #' @seealso ...
+#' @export
 
 amo.fairobje <- function(preds, dtrain) {
 
