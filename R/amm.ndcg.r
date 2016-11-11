@@ -40,7 +40,7 @@ amm.ndcg_at_k <- function(r, k=min(5, length(r)) ) {
 #' @return Vector: one row for each observation
 #' @seealso ...
 
-amm.ndcg <- function(preds, dtrain) {
+amm_ndcg <- function(preds, dtrain) {
 
   preds <- as.matrix(preds)
   dtrain <- as.vector(dtrain)

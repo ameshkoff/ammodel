@@ -8,14 +8,14 @@
 #' @seealso ...
 #' @export
 
-amm.mae <- function(preds
+amm_mae <- function(preds
                     , dtrain) {
 
-  labels <- getinfo(dtrain, "label")
+  labels <- xgboost::getinfo(dtrain, "label")
   elab <- as.numeric(labels)
   epreds <- as.numeric(preds)
   err <- mae(elab, epreds)
 
-  return(list(metric = "amm.mae", value = err))
+  return(list(metric = "amm_mae", value = err))
 
 }

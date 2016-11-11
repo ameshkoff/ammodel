@@ -8,13 +8,13 @@
 #' @seealso ...
 #' @export
 
-amm.mae.log <- function(preds, dtrain) {
+amm_mae.log <- function(preds, dtrain) {
 
   labels <- getinfo(dtrain, "label")
   elab <- exp(as.numeric(labels)) - 1
   epreds <- exp(as.numeric(preds)) - 1
   err <- mae(eab, epreds)
 
-  return(list(metric = "amm.mae.log", value = err))
+  return(list(metric = "amm_mae.log", value = err))
 
 }

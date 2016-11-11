@@ -8,7 +8,7 @@
 #' @seealso ...
 #' @export
 
-amm.rmpse.log <- function(preds
+amm_rmpse_log <- function(preds
                           , dtrain) {
 
   labels <- getinfo(dtrain, "label")
@@ -16,6 +16,6 @@ amm.rmpse.log <- function(preds
   epreds <- exp(as.numeric(preds)) - 1
   err <- sqrt(mean((epreds / elab - 1) ^ 2))
 
-  return(list(metric = "amm.rmpse.log", value = err))
+  return(list(metric = "amm_rmpse_log", value = err))
 
 }

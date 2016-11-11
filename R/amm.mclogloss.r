@@ -9,7 +9,7 @@
 #' @seealso ...
 #' @export
 
-amm.mclogloss <- function(actual
+amm_mclogloss <- function(actual
                       , predicted
                       , eps = 1e-15) {
   predicted[predicted < eps] <- eps;
